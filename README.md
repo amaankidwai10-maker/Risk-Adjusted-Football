@@ -55,6 +55,13 @@ Netherlands  :  7.7%
 
 ## 📊 Visualizations
 
+### Win Probability Distribution
+![Win Probabilities](Visuals/Figure_1.png)
+
+Argentina leads with 19.3% — but notice how even the heavy favorite only wins 1 in 5 tournaments. That's the knockout format doing what it's designed to do: compress probability distributions and manufacture chaos.
+
+---
+
 ### Risk Assessment — Horizontal View
 ![Risk Assessment](Visuals/Figure_2.png)
 
@@ -67,7 +74,7 @@ Reading this like a risk chart — the gap between Argentina (19.3%) and Netherl
 
 The pie chart reveals something important — the top 4 teams (Argentina, France, Brazil, Spain) collectively control only 62.8% of the probability space. The bottom 4 teams still hold a combined 37.2% chance. This is what makes knockout tournaments so unpredictable and so interesting to model.
 
----
+--
 
 ## 🗂️ Project Structure
 
