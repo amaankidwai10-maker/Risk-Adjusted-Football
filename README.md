@@ -1,4 +1,4 @@
-# risk-adjusted-football
+# Risk-Adjusted-Football
 A stochastic risk-assessment model forecasting World Cup outcomes through implied probability.
 
 # 🏆 World Cup Monte Carlo: A Study in Risk & Volatility
