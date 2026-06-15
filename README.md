@@ -12,7 +12,11 @@ When I first started writing the core logic, I used historical Elo ratings to ca
 
 Initially, I thought about just letting the higher probability win every time. Adding a random "dice roll" into the code using Python's `random` library honestly felt like a gimmick at first. Why introduce randomness to hard math? 
 
-But then it clicked: **the dice roll is the volatility.** If the better team wins 100% of the time, that’s a deterministic model, which is a terrible representation of reality. In finance, you have market shocks; in football, you have injuries, bad referee calls, and lucky bounces. By calculating the expected win probability (the trend) and rolling a virtual dice against it (the volatility), I was able to mathematically replicate upset potential.
+But then it clicked: **the dice roll is the volatility.** 
+
+![The Stochastic Trigger](image_2.png)
+
+If the better team wins 100% of the time, that’s a deterministic model, which is a terrible representation of reality. In finance, you have market shocks; in football, you have injuries, bad referee calls, and lucky bounces. By calculating the expected win probability (the trend) and rolling a virtual dice against it (the volatility), I was able to mathematically replicate upset potential.
 
 ## 📈 Stress Testing: Pushing It to 1,000,000 Runs
 A single simulation with a dice roll is just a guess. To find the real signal in the noise, I had to aggregate the variance. 
