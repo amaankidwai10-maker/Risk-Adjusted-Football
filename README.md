@@ -19,7 +19,7 @@ Initially, I thought about just letting the higher probability win every time. A
 
 But then it clicked: **the dice roll is the volatility.**
 
-![The Stochastic Trigger](Visuals/image_2.png)
+![Win Probabilities](Visuals/Figure_1.png)
 
 If the better team wins 100% of the time, that's a deterministic model, which is a terrible representation of reality. In finance, you have market shocks; in football, you have injuries, bad referee calls, and lucky bounces. By calculating the expected win probability (the trend) and rolling a virtual dice against it (the volatility), I was able to mathematically replicate upset potential.
 
